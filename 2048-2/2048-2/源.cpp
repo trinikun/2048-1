@@ -15,7 +15,7 @@ int N = 1;    //2的n次方
 
 void showpane()    //显示棋盘
 {
-	cout << setw(46) << "X2048 by Reason" << endl;
+	cout << setw(46) << "X2048 by 学习" << endl;
 	cout << setw(50) << " |-----------------------|" << endl;
 
 	for (int i = 0; i <= 3; i++)
@@ -58,7 +58,7 @@ void newgame()    //开始游戏
 int if2n(int x)    //判断x是否是2的n次方
 {
 	int flag = 0;
-	for (int n = 1; n <= 11; n++)
+	for (int n = 1; n <= 2; n++)
 	{
 		if (x == pow(2, n))
 		{
