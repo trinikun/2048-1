@@ -39,6 +39,7 @@ void Print()
 	system("cls");
 	cout << "*****************  2048 ¿Ø ÖÆ Ì¨ °æ  ******************" << endl;
 	cout << "*****************  By dxnk ******************" << endl << endl;
+	cout << "**********player : ******************" << endl << endl;
 	for (int i = 0; i < ROW; ++i)
 	{
 		cout << "---------------------------------" << endl;
@@ -339,6 +340,7 @@ int main()
 			break;
 		}
 	}
+	system("pause");
 
 	return 0;
 }
